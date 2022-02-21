@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Palanquin+Dark:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+$cLightGray: rgba(36, 36, 36, 0.85);
+$cWhite: rgba(250, 250, 250, 1);
+$cBlack: rgba(14, 14, 14, 1);
+$cBlackBg: rgba(0, 0, 0, 0.9);
+$cBlackOpacity: rgba(14, 14, 14, 0.2);
+
+$cTier1: rgba(0, 0, 150, 1);
+$cTier2: rgba(0, 150, 0, 1);
+$cTier3: rgba(150, 150, 0, 1);
+$cTier4: rgba(0, 150, 150, 1);
+$cTier5: rgba(150, 0, 150, 1);
+
+$cDarkSeaGreen: rgba(0, 102, 98, 0.5);
+$cBrightSeaGreen: rgba(32, 218, 172, 0.8);
+$cDarkRed: rgba(170, 0, 0, 0.4);
+$cBrightRed: rgba(168, 10, 36, 0.95);
+$cGlowRed: rgba(207, 17, 42, 1);
+$cDarkGolden: rgba(218, 165, 32, 0.8);
+$cBrightGolden: rgba(218, 200, 75, 1);
+
+* {
+	margin: 0px;
+	padding: 0px;
+	border-spacing: 0px;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: $cWhite;
+	height: 100%;
+}
+body {
+	background-image: url('../static/AmbientBackground_EaterTheme.png');
+	background-size: cover;
+	font-size: 14px;
+}
+img {
+	height: 25px;
+	width: 25px;
+}
+
+h1 {
+	font-family: 'Griffy', cursive;
+	color: rgba(250, 250, 250, 0.95);
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-weight: 400;
+}
+
+.tier_1 {
+	color: $cTier1;
+}
+.tier_2 {
+	color: $cTier2;
+}
+.tier_3 {
+	color: $cTier3;
+}
+.tier_4 {
+	color: $cTier4;
+}
+.tier_5 {
+	color: $cTier5;
+}

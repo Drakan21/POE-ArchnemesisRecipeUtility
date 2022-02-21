@@ -1,0 +1,1177 @@
+{
+    "tokens": [
+        {
+            "name": "Heralding Minions",
+            "description": "Monster's minions summon invulnerable Lightning Totems on death",
+            "modifier": "",
+            "tier": "2",
+            "icon": "heralding-minions.png",
+            "comp": [
+                "Dynamo",
+                "Arcane Buffer"
+            ],
+            "rewards": [
+                {
+                    "type": "Fragments",
+                    "modifier": 2,
+                    "icon": "HeistRewardFragments.png"
+                }
+            ]
+        },
+        {
+            "name": "Empowering Minions",
+            "description": "Monster's minions are empowered. Minions empower the Monster with additional modifiers on death",
+            "modifier": "",
+            "tier": "3",
+            "icon": "empowering-minions.png",
+            "comp": [
+                "Necromancer",
+                "Executioner",
+                "Gargantuan"
+            ],
+            "rewards": [
+                {
+                    "type": "Blight",
+                    "modifier": 1,
+                    "icon": "HeistRewardBlight.png"
+                },
+                {
+                    "type": "Ritual",
+                    "modifier": 1,
+                    "icon": "RewardIconRitual.png"
+                }
+            ]
+        },
+        {
+            "name": "Assassin",
+            "description": "Monster has augmented Critical powers and has Shroud Walker",
+            "modifier": "",
+            "tier": "2",
+            "icon": "assassin.png",
+            "comp": [
+                "Deadeye",
+                "Vampiric"
+            ],
+            "rewards": [
+                {
+                    "type": "Currency",
+                    "modifier": 2,
+                    "icon": "HeistRewardCurrency.png"
+                }
+            ]
+        },
+        {
+            "name": "Trickster",
+            "description": "Monster has damage avoidance. Monster periodically Flees",
+            "modifier": "",
+            "tier": "3",
+            "icon": "trickster.png",
+            "comp": [
+                "Overcharged",
+                "Assassin",
+                "Echoist"
+            ],
+            "rewards": [
+                {
+                    "type": "Currency",
+                    "modifier": 1,
+                    "icon": "HeistRewardCurrency.png"
+                },
+                {
+                    "type": "Uniques",
+                    "modifier": 1,
+                    "icon": "HeistRewardUniques.png"
+                },
+                {
+                    "type": "DivinationCards",
+                    "modifier": 1,
+                    "icon": "HeistRewardDivination.png"
+                }
+            ]
+        },
+        {
+            "name": "Necromancer",
+            "description": "Monster can raise Undead. Minions are empowered and revive shortly after dying",
+            "modifier": "Rewards are rolled 2 additional times, choosing the rarest result",
+            "tier": "2",
+            "icon": "necromancer.png",
+            "comp": [
+                "Bombardier",
+                "Overcharged"
+            ],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                }
+            ]
+        },
+        {
+            "name": "Rejuvenating",
+            "description": "Monster has Life Regeneration. Periodically releases a wave that heals nearby allies and prevents enemy Life and Energy Shield recovery",
+            "modifier": "Rewards are rolled 1 additional time, choosing the rarest result",
+            "tier": "2",
+            "icon": "rejuvenating.png",
+            "comp": [
+                "Gargantuan",
+                "Vampiric"
+            ],
+            "rewards": [
+                {
+                    "type": "Currency",
+                    "modifier": 1,
+                    "icon": "HeistRewardCurrency.png"
+                }
+            ]
+        },
+        {
+            "name": "Executioner",
+            "description": "Monster gains Damage based on missing enemy Life. Monster has an aura that prevents enemies recovering Life and Energy Shield above 50%",
+            "modifier": "",
+            "tier": "2",
+            "icon": "executioner.png",
+            "comp": [
+                "Frenzied",
+                "Berserker"
+            ],
+            "rewards": [
+                {
+                    "type": "Legion",
+                    "modifier": 1,
+                    "icon": "HeistRewardLegion.png"
+                },
+                {
+                    "type": "Breach",
+                    "modifier": 1,
+                    "icon": "HeistRewardBreach.png"
+                }
+            ]
+        },
+        {
+            "name": "Hexer",
+            "description": "Monster is Hexproof. Monster is followed by a Hexing Effigy that creates Hexing areas",
+            "modifier": "",
+            "tier": "2",
+            "icon": "hexer.png",
+            "comp": [
+                "Chaosweaver",
+                "Echoist"
+            ],
+            "rewards": [
+                {
+                    "type": "Essences",
+                    "modifier": 2,
+                    "icon": "HeistRewardEssences.png"
+                }
+            ]
+        },
+        {
+            "name": "Drought Bringer",
+            "description": "Monster disables Flask effects on hit. Monster has an aura that drains Flask charges and prevents gaining Flask charges",
+            "modifier": "",
+            "tier": "2",
+            "icon": "drought-bringer.png",
+            "comp": [
+                "Malediction",
+                "Deadeye"
+            ],
+            "rewards": [
+                {
+                    "type": "Labyrinth",
+                    "modifier": 2,
+                    "icon": "HeistRewardLabyrinth.png"
+                }
+            ]
+        },
+        {
+            "name": "Entangler",
+            "description": "Monster creates Thorned Vines that slow and deal Chaos Damage over time.",
+            "modifier": "",
+            "tier": "2",
+            "icon": "entangler.png",
+            "comp": [
+                "Toxic",
+                "Bloodletter"
+            ],
+            "rewards": [
+                {
+                    "type": "Fossils",
+                    "modifier": 2,
+                    "icon": "HeistRewardFossils.png"
+                }
+            ]
+        },
+        {
+            "name": "Temporal Bubble",
+            "description": "Monster is protected by a Temporal Bubble that severely slows those in it and cannot be damaged by those outside of it",
+            "modifier": "",
+            "tier": "3",
+            "icon": "temporal-bubble.png",
+            "comp": [
+                "Juggernaut",
+                "Hexer",
+                "Arcane Buffer"
+            ],
+            "rewards": [
+                {
+                    "type": "Heist",
+                    "modifier": 1,
+                    "icon": "RewardIconHeist.png"
+                },
+                {
+                    "type": "Expedition",
+                    "modifier": 1,
+                    "icon": "RewardIconExpedition.png"
+                }
+            ]
+        },
+        {
+            "name": "Treant Horde",
+            "description": "Monster's minions are replaced with powerful Treants. Some Damage taken from the monster is split between the Treants",
+            "modifier": "Monster's Minions drop a randomly-chosen Reward Type",
+            "tier": "2",
+            "icon": "treant-horde.png",
+            "comp": [
+                "Toxic",
+                "Sentinel",
+                "Steel-infused"
+            ],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                }
+            ]
+        },
+        {
+            "name": "Frost Strider",
+            "description": "Monster leaves Chilling Ground in its wake. Minions create Frost Bearers on death",
+            "modifier": "",
+            "tier": "2",
+            "icon": "frost-strider.png",
+            "comp": [
+                "Frostweaver",
+                "Hasted"
+            ],
+            "rewards": [
+                {
+                    "type": "Armour",
+                    "modifier": 3,
+                    "icon": "HeistRewardArmour.png"
+                }
+            ]
+        },
+        {
+            "name": "Ice Prison",
+            "description": "Monster periodically entraps players in a cage of ice",
+            "modifier": "Rewards are rolled 1 additional time, choosing the rarest result",
+            "tier": "2",
+            "icon": "ice-prison.png",
+            "comp": [
+                "Permafrost",
+                "Sentinel"
+            ],
+            "rewards": [
+                {
+                    "type": "Armour",
+                    "modifier": 2,
+                    "icon": "HeistRewardArmour.png"
+                }
+            ]
+        },
+        {
+            "name": "Soul Eater",
+            "description": "Monster empowers when nearby allies die. Periodically summons Phantasms",
+            "modifier": "",
+            "tier": "3",
+            "icon": "soul-eater.png",
+            "comp": [
+                "Soul Conduit",
+                "Necromancer",
+                "Gargantuan"
+            ],
+            "rewards": [
+                {
+                    "type": "Maps",
+                    "modifier": 2,
+                    "icon": "HeistRewardMaps.png"
+                }
+            ]
+        },
+        {
+            "name": "Flame Strider",
+            "description": "Monster leaves Burning Ground in its wake. Minions create Flame Bearers on death",
+            "modifier": "",
+            "tier": "2",
+            "icon": "flame-strider.png",
+            "comp": [
+                "Flameweaver",
+                "Hasted"
+            ],
+            "rewards": [
+                {
+                    "type": "Weapon",
+                    "modifier": 3,
+                    "icon": "HeistRewardWeapon.png"
+                }
+            ]
+        },
+        {
+            "name": "Corpse Detonator",
+            "description": "Monster detonates nearby Corpses. Monster periodically creates Corpses",
+            "modifier": "",
+            "tier": "3",
+            "icon": "corpse-detonator.png",
+            "comp": [
+                "Necromancer",
+                "Incendiary"
+            ],
+            "rewards": [
+                {
+                    "type": "DivinationCards",
+                    "modifier": 2,
+                    "icon": "HeistRewardDivination.png"
+                }
+            ]
+        },
+        {
+            "name": "Evocationist",
+            "description": "Monster is imbued with Elemental Damage, Resistances and Ailments",
+            "modifier": "",
+            "tier": "2",
+            "icon": "evocationist.png",
+            "comp": [
+                "Flameweaver",
+                "Frostweaver",
+                "Stormweaver"
+            ],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Weapon",
+                    "modifier": 1,
+                    "icon": "HeistRewardWeapon.png"
+                },
+                {
+                    "type": "Armour",
+                    "modifier": 1,
+                    "icon": "HeistRewardArmour.png"
+                },
+                {
+                    "type": "Trinkets",
+                    "modifier": 1,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Magma Barrier",
+            "description": "Monster is protected by a Magmatic shield that explodes when depleted. Monster periodically creates Volatile Flamebloods",
+            "modifier": "Rewards are rolled 1 additional time, choosing the rarest result",
+            "tier": "2",
+            "icon": "magma-barrier.png",
+            "comp": [
+                "Incendiary",
+                "Bonebreaker"
+            ],
+            "rewards": [
+                {
+                    "type": "Weapon",
+                    "modifier": 2,
+                    "icon": "HeistRewardWeapon.png"
+                }
+            ]
+        },
+        {
+            "name": "Mirror Image",
+            "description": "Monster can create illusions of itself",
+            "modifier": "Rewards are rolled 2 additional times, choosing the rarest result",
+            "tier": "2",
+            "icon": "mirror-image.png",
+            "comp": [
+                "Echoist",
+                "Soul Conduit"
+            ],
+            "rewards": [
+                {
+                    "type": "Scarabs",
+                    "modifier": 1,
+                    "icon": "HeistRewardScarabs.png"
+                }
+            ]
+        },
+        {
+            "name": "Storm Strider",
+            "description": "Monster leaves Shocking Ground in its wake and spawns Lightning Mirages when hit. Minions create Storm Bearers on death",
+            "modifier": "",
+            "tier": "2",
+            "icon": "storm-strider.png",
+            "comp": [
+                "Stormweaver",
+                "Hasted"
+            ],
+            "rewards": [
+                {
+                    "type": "Trinkets",
+                    "modifier": 3,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Mana Siphoner",
+            "description": "Monster is surrounded by a ring that deals Lightning Damage over time as well as draining Mana",
+            "modifier": "Rewards are rolled 1 additional time, choosing the rarest result",
+            "tier": "2",
+            "icon": "mana-siphoner.png",
+            "comp": [
+                "Consecrator",
+                "Dynamo"
+            ],
+            "rewards": [
+                {
+                    "type": "Trinkets",
+                    "modifier": 2,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Corrupter",
+            "description": "Monster inflicts Corrupted Blood on Hit and when Hit. Minions create Corrupted Bubbles on death",
+            "modifier": "Items dropped from the Monster and its Minions are Corrupted",
+            "tier": "2",
+            "icon": "corrupter.png",
+            "comp": [
+                "Bloodletter",
+                "Chaosweaver"
+            ],
+            "rewards": [
+                {
+                    "type": "Abyss",
+                    "modifier": 2,
+                    "icon": "HeistRewardAbyss.png"
+                }
+            ]
+        },
+        {
+            "name": "Invulnerable",
+            "description": "Monster and its Minions periodically become immune to all Damage. Minions cannot die while Monster is alive",
+            "modifier": "",
+            "tier": "2",
+            "icon": "invulnerable.png",
+            "comp": [
+                "Sentinel",
+                "Juggernaut",
+                "Consecrator"
+            ],
+            "rewards": [
+                {
+                    "type": "Delirium",
+                    "modifier": 1,
+                    "icon": "HeistRewardDelirium.png"
+                },
+                {
+                    "type": "Metamorphosis",
+                    "modifier": 1,
+                    "icon": "HeistRewardMetamorph.png"
+                }
+            ]
+        },
+        {
+            "name": "Crystal-skinned",
+            "description": "Monster triggers the creation of Crystals when hit. Crystals explode when the Monster dies",
+            "modifier": "",
+            "tier": "3",
+            "icon": "crystal-skinned.png",
+            "comp": [
+                "Permafrost",
+                "Rejuvenating",
+                "Berserker"
+            ],
+            "rewards": [
+                {
+                    "type": "Harbinger",
+                    "modifier": 2,
+                    "icon": "HeistRewardHarbinger.png"
+                }
+            ]
+        },
+        {
+            "name": "Empowered Elements",
+            "description": "Monster cycles between imbued damage of a particular type and immunity to all other damage types",
+            "modifier": "Rewards are rolled 1 additional time, choosing the rarest result",
+            "tier": "3",
+            "icon": "empowered-elements.png",
+            "comp": [
+                "Evocationist",
+                "Steel-infused",
+                "Chaosweaver"
+            ],
+            "rewards": [
+                {
+                    "type": "Uniques",
+                    "modifier": 2,
+                    "icon": "HeistRewardUniques.png"
+                }
+            ]
+        },
+        {
+            "name": "Effigy",
+            "description": "Monster creates an Effigy of the player. Damage dealt to the Effigy is also reflected to the bonded player",
+            "modifier": "Rewards are rolled 1 additional time, choosing the rarest result",
+            "tier": "3",
+            "icon": "effigy.png",
+            "comp": [
+                "Hexer",
+                "Malediction",
+                "Corrupter"
+            ],
+            "rewards": [
+                {
+                    "type": "DivinationCards",
+                    "modifier": 2,
+                    "icon": "HeistRewardDivination.png"
+                }
+            ]
+        },
+        {
+            "name": "Lunaris-touched",
+            "description": "Monster uses the abilities of Lunaris",
+            "modifier": "All Reward Types have an additional reward",
+            "tier": "4",
+            "icon": "lunaris-touched.png",
+            "comp": [
+                "Invulnerable",
+                "Frost Strider",
+                "Empowering Minions"
+            ],
+            "rewards": [
+                {
+                    "type": "Uniques",
+                    "modifier": 1,
+                    "icon": "HeistRewardUniques.png"
+                }
+            ]
+        },
+        {
+            "name": "Solaris-touched",
+            "description": "Monster uses the abilities of Solaris",
+            "modifier": "All Reward Types have an additional reward",
+            "tier": "4",
+            "icon": "solaris-touched.png",
+            "comp": [
+                "Invulnerable",
+                "Magma Barrier",
+                "Empowering Minions"
+            ],
+            "rewards": [
+                {
+                    "type": "Scarabs",
+                    "modifier": 1,
+                    "icon": "HeistRewardScarabs.png"
+                }
+            ]
+        },
+        {
+            "name": "Arakaali-touched",
+            "description": "Monster uses the abilities of Arakaali",
+            "modifier": "All Reward Types are Divination Cards",
+            "tier": "4",
+            "icon": "arakaali-touched.png",
+            "comp": [
+                "Corpse Detonator",
+                "Entangler",
+                "Assassin"
+            ],
+            "rewards": [
+                {
+                    "type": "DivinationCards",
+                    "modifier": 1,
+                    "icon": "HeistRewardDivination.png"
+                }
+            ]
+        },
+        {
+            "name": "Brine King-touched",
+            "description": "Monster uses the abilities of the Brine King",
+            "modifier": "Rewards are rolled 6 additional times, choosing the rarest result",
+            "tier": "3",
+            "icon": "brine-king-touched.png",
+            "comp": [
+                "Ice Prison",
+                "Storm Strider",
+                "Heralding Minions"
+            ],
+            "rewards": [
+                {
+                    "type": "Armour",
+                    "modifier": 3,
+                    "icon": "HeistRewardArmour.png"
+                }
+            ]
+        },
+        {
+            "name": "Tukohama-touched",
+            "description": "Monster uses the abilities of Tukohama",
+            "modifier": "Rewards are rolled 4 additional times, choosing the rarest result",
+            "tier": "3",
+            "icon": "tukohama-touched.png",
+            "comp": [
+                "Bonebreaker",
+                "Executioner",
+                "Magma Barrier"
+            ],
+            "rewards": [
+                {
+                    "type": "Weapon",
+                    "modifier": 2,
+                    "icon": "HeistRewardWeapon.png"
+                },
+                {
+                    "type": "Fragments",
+                    "modifier": 1,
+                    "icon": "HeistRewardFragments.png"
+                }
+            ]
+        },
+        {
+            "name": "Abberath-touched",
+            "description": "Monster uses the abilities of Abberath",
+            "modifier": "Rewards are rolled 4 additional times, choosing the rarest result",
+            "tier": "3",
+            "icon": "abberath-touched.png",
+            "comp": [
+                "Flame Strider",
+                "Frenzied",
+                "Rejuvenating"
+            ],
+            "rewards": [
+                {
+                    "type": "Trinkets",
+                    "modifier": 2,
+                    "icon": "HeistRewardTrinkets.png"
+                },
+                {
+                    "type": "Maps",
+                    "modifier": 1,
+                    "icon": "HeistRewardMaps.png"
+                }
+            ]
+        },
+        {
+            "name": "Shakari-touched",
+            "description": "Monster uses the abilities of Shakari",
+            "modifier": "All Reward Types are Uniques",
+            "tier": "4",
+            "icon": "shakari-touched.png",
+            "comp": [
+                "Entangler",
+                "Soul Eater",
+                "Drought Bringer"
+            ],
+            "rewards": [
+                {
+                    "type": "Uniques",
+                    "modifier": 1,
+                    "icon": "HeistRewardUniques.png"
+                }
+            ]
+        },
+        {
+            "name": "Innocence-touched",
+            "description": "Monster uses the abilities of Innocence",
+            "modifier": "All Reward Types are Currency",
+            "tier": "5",
+            "icon": "innocence-touched.png",
+            "comp": [
+                "Lunaris-touched",
+                "Solaris-touched",
+                "Mirror Image",
+                "Mana Siphoner"
+            ],
+            "rewards": [
+                {
+                    "type": "Currency",
+                    "modifier": 3,
+                    "icon": "HeistRewardCurrency.png"
+                }
+            ]
+        },
+        {
+            "name": "Kitava-touched",
+            "description": "Monster uses the abilities of Kitava",
+            "modifier": "Rewards are doubled",
+            "tier": "4",
+            "icon": "kitava-touched.png",
+            "comp": [
+                "Tukohama-touched",
+                "Abberath-touched",
+                "Corrupter",
+                "Corpse Detonator"
+            ],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                }
+            ]
+        },
+        {
+            "name": "Toxic",
+            "description": "Monster has augmented Poison powers",
+            "modifier": "",
+            "tier": "1",
+            "icon": "toxic.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Gems",
+                    "modifier": 1,
+                    "icon": "HeistRewardGems.png"
+                }
+            ]
+        },
+        {
+            "name": "Chaosweaver",
+            "description": "Monster is imbued with Chaos Damage and Resistance",
+            "modifier": "",
+            "tier": "1",
+            "icon": "chaosweaver.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Gems",
+                    "modifier": 1,
+                    "icon": "HeistRewardGems.png"
+                }
+            ]
+        },
+        {
+            "name": "Frostweaver",
+            "description": "Monster is imbued with Cold Damage and Resistance",
+            "modifier": "",
+            "tier": "1",
+            "icon": "frostweaver.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Armour",
+                    "modifier": 1,
+                    "icon": "HeistRewardArmour.png"
+                }
+            ]
+        },
+        {
+            "name": "Permafrost",
+            "description": "Monster has augmented Freeze and Chill powers",
+            "modifier": "",
+            "tier": "1",
+            "icon": "permafrost.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Armour",
+                    "modifier": 1,
+                    "icon": "HeistRewardArmour.png"
+                }
+            ]
+        },
+        {
+            "name": "Hasted",
+            "description": "Monster is faster",
+            "modifier": "",
+            "tier": "1",
+            "icon": "hasted.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                }
+            ]
+        },
+        {
+            "name": "Deadeye",
+            "description": "Monster is Accurate and applies Marks",
+            "modifier": "",
+            "tier": "1",
+            "icon": "deadeye.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Armour",
+                    "modifier": 1,
+                    "icon": "HeistRewardArmour.png"
+                },
+                {
+                    "type": "Trinkets",
+                    "modifier": 1,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Bombardier",
+            "description": "Monster has augmented Projectile powers and periodically unleashes a barrage of mortars",
+            "modifier": "",
+            "tier": "1",
+            "icon": "bombardier.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Weapon",
+                    "modifier": 1,
+                    "icon": "HeistRewardWeapon.png"
+                },
+                {
+                    "type": "Armour",
+                    "modifier": 1,
+                    "icon": "HeistRewardArmour.png"
+                }
+            ]
+        },
+        {
+            "name": "Flameweaver",
+            "description": "Monster is imbued with Fire Damage and Resistance",
+            "modifier": "",
+            "tier": "1",
+            "icon": "flameweaver.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Weapon",
+                    "modifier": 1,
+                    "icon": "HeistRewardWeapon.png"
+                }
+            ]
+        },
+        {
+            "name": "Incendiary",
+            "description": "Monster has augmented Ignite powers",
+            "modifier": "",
+            "tier": "1",
+            "icon": "incendiary.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Weapon",
+                    "modifier": 1,
+                    "icon": "HeistRewardWeapon.png"
+                }
+            ]
+        },
+        {
+            "name": "Arcane Buffer",
+            "description": "Monster has augmented Energy Shield powers and releases a stunning nova when Energy Shield breaks",
+            "modifier": "",
+            "tier": "1",
+            "icon": "arcane-buffer.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Essences",
+                    "modifier": 1,
+                    "icon": "HeistRewardEssences.png"
+                }
+            ]
+        },
+        {
+            "name": "Echoist",
+            "description": "Monster repeats skills additional times",
+            "modifier": "",
+            "tier": "1",
+            "icon": "echoist.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Currency",
+                    "modifier": 1,
+                    "icon": "HeistRewardCurrency.png"
+                }
+            ]
+        },
+        {
+            "name": "Stormweaver",
+            "description": "Monster is imbued with Lightning Damage and Resistance",
+            "modifier": "",
+            "tier": "1",
+            "icon": "stormweaver.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Trinkets",
+                    "modifier": 1,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Dynamo",
+            "description": "Monster has augmented Shock powers",
+            "modifier": "",
+            "tier": "1",
+            "icon": "dynamo.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Trinkets",
+                    "modifier": 1,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Bonebreaker",
+            "description": "Monster has augmented Stun powers. Monster hits are slower and can't be evaded",
+            "modifier": "",
+            "tier": "1",
+            "icon": "bonebreaker.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Weapon",
+                    "modifier": 1,
+                    "icon": "HeistRewardWeapon.png"
+                }
+            ]
+        },
+        {
+            "name": "Bloodletter",
+            "description": "Monster has augmented Bleed powers. Monster Maims nearby enemies",
+            "modifier": "Items dropped from the Monster and its Minions are Corrupted",
+            "tier": "1",
+            "icon": "bloodletter.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Weapon",
+                    "modifier": 1,
+                    "icon": "HeistRewardWeapon.png"
+                },
+                {
+                    "type": "Trinkets",
+                    "modifier": 1,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Steel-infused",
+            "description": "Monster is imbued with Physical Damage and Physical Damage Reduction",
+            "modifier": "",
+            "tier": "1",
+            "icon": "steel-infused.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Weapon",
+                    "modifier": 1,
+                    "icon": "HeistRewardWeapon.png"
+                }
+            ]
+        },
+        {
+            "name": "Gargantuan",
+            "description": "Monster is massive, granting more Life, Area of Effect, and Damage",
+            "modifier": "",
+            "tier": "1",
+            "icon": "gargantuan.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Currency",
+                    "modifier": 1,
+                    "icon": "HeistRewardCurrency.png"
+                }
+            ]
+        },
+        {
+            "name": "Berserker",
+            "description": "Monster Enrages as it loses life",
+            "modifier": "",
+            "tier": "1",
+            "icon": "berserker.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Uniques",
+                    "modifier": 1,
+                    "icon": "HeistRewardUniques.png"
+                }
+            ]
+        },
+        {
+            "name": "Sentinel",
+            "description": "Monster is imbued with Block and Spell Block. Monster Triggers Reckoning when hit",
+            "modifier": "",
+            "tier": "1",
+            "icon": "sentinel.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Armour",
+                    "modifier": 2,
+                    "icon": "HeistRewardArmour.png"
+                }
+            ]
+        },
+        {
+            "name": "Juggernaut",
+            "description": "Monster cannot be Slowed or Stunned. Monster gains Endurance Charges",
+            "modifier": "",
+            "tier": "1",
+            "icon": "juggernaut.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Harbinger",
+                    "modifier": 1,
+                    "icon": "HeistRewardHarbinger.png"
+                }
+            ]
+        },
+        {
+            "name": "Vampiric",
+            "description": "Monster has augmented Life Leech powers",
+            "modifier": "",
+            "tier": "1",
+            "icon": "vampiric.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Fossils",
+                    "modifier": 1,
+                    "icon": "HeistRewardFossils.png"
+                }
+            ]
+        },
+        {
+            "name": "Overcharged",
+            "description": "Monster grants Charges to itself and Allies over time",
+            "modifier": "",
+            "tier": "1",
+            "icon": "overcharged.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Trinkets",
+                    "modifier": 2,
+                    "icon": "HeistRewardTrinkets.png"
+                }
+            ]
+        },
+        {
+            "name": "Soul Conduit",
+            "description": "On death, Monster and nearby Allies are revived",
+            "modifier": "",
+            "tier": "1",
+            "icon": "soul-conduit.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Maps",
+                    "modifier": 1,
+                    "icon": "HeistRewardMaps.png"
+                }
+            ]
+        },
+        {
+            "name": "Opulent",
+            "description": "Monster is fabulously wealthy",
+            "modifier": "",
+            "tier": "1",
+            "icon": "opulent.png",
+            "comp": [],
+            "rewards": []
+        },
+        {
+            "name": "Malediction",
+            "description": "Monster has a weakening Aura",
+            "modifier": "",
+            "tier": "1",
+            "icon": "malediction.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "DivinationCards",
+                    "modifier": 1,
+                    "icon": "HeistRewardDivination.png"
+                }
+            ]
+        },
+        {
+            "name": "Consecrator",
+            "description": "Monster periodically creates Consecrated Ground, healing allies and making them immune to curses and ailments",
+            "modifier": "",
+            "tier": "1",
+            "icon": "consecrator.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Fragments",
+                    "modifier": 1,
+                    "icon": "HeistRewardFragments.png"
+                }
+            ]
+        },
+        {
+            "name": "Frenzied",
+            "description": "Monster and allies periodically Enrage",
+            "modifier": "",
+            "tier": "1",
+            "icon": "frenzied.png",
+            "comp": [],
+            "rewards": [
+                {
+                    "type": "Generic",
+                    "modifier": 1,
+                    "icon": "HeistRewardGeneric2.png"
+                },
+                {
+                    "type": "Uniques",
+                    "modifier": 1,
+                    "icon": "HeistRewardUniques.png"
+                }
+            ]
+        }
+    ]
+}
